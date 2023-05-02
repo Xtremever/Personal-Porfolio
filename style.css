@@ -1,0 +1,14 @@
+/*  font-family: 'Berkshire Swash', cursive;
+font-family: 'Almendra SC', serif;
+font-family: 'Almendra', serif;*/
+
+
+body{
+    margin: 0;
+}
+
+header,
+.hero{
+    font-family: 'Almendra SC', serif;
+    font-weight: 50%;
+}
