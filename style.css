@@ -33,6 +33,7 @@ li, button{
 
 
 header ul{
+    width: 100vw;
     height: 5vh;
     display: flex;
     flex-direction: row;
@@ -60,6 +61,8 @@ li{
 
 header ul li a,
 header ul button {
+    background-color: #B9845B;
+    width: 10vw;
     background: linear-gradient(180deg, #004307, #00FF19, #00FF19);
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
@@ -68,13 +71,10 @@ header ul button {
 
 /* dropdown content */
 .dropdown-content {
-    width: 57%;
+    width: 40%;
     display: none;
-    font-size: 2vh;
     background-color: #d74464;
 }
-
-.dropdown:hover .dropdown-content {display: block;}
 
 .dropdown{
     display: flex;
@@ -83,4 +83,31 @@ header ul button {
     
 }
 
+.dropdown:hover
+ .dropdown-content 
+ {display: block;}
+
+/* margin change */
+
+section{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* images */
+section img {
+    width: 25vw;
+    height: 40vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* white bg */
+.white-bg{
+    background-color: #fff;
+}
 
