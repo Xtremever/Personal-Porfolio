@@ -6,7 +6,7 @@ font-family: 'Almendra', serif;*/
 body{
     margin: 0;
     background-color: #C0A28D;
-    background-image: ;
+    background-image: url(IMG/pattern.png);
     background-repeat: repeat;
 }
 
@@ -33,7 +33,6 @@ li, button{
 
 
 header ul{
-    width: 100vw;
     height: 5vh;
     display: flex;
     flex-direction: row;
@@ -53,6 +52,9 @@ header .row h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(180deg, #ffffff, #a4a4a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
 }
 
 li{
@@ -67,6 +69,10 @@ header ul button {
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     border: none;
+}
+
+header ul div a{
+    color: #000;
 }
 
 /* dropdown content */
@@ -164,9 +170,35 @@ article p{
 
 
 
+/* footer */
+footer{
+    background-color: #623410;
+    background-image: url(/IMG/square.png);
+    color: #fff;
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 0;
+}
 
+
+footer ul{
+    margin-bottom: 0;
+    display: flex;
+}
+
+footer ul li{
+    width: 25%; 
+}
+
+footer ul li a{
+    width: 25%; 
+    background: linear-gradient(180deg, #fcdada, #ee1919, #fcdada);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
 
 .Resume article{
+    border-radius: 2vw;
+    background-color: white;
     flex-direction: column;
     align-items: normal;
 }
