@@ -90,14 +90,14 @@ header ul button {
 /* margin change */
 
 section{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 23%;
+    margin-right: 23%;
 }
 
 /* images */
 section img {
     width: 25vw;
-    height: 40vh;
+    height: 50vh;
 }
 
 .info{
@@ -111,3 +111,62 @@ section img {
     background-color: #fff;
 }
 
+/* text boxes */
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Almendra', serif;
+    color: #000;
+    font-size: 2.5vh;
+}
+
+article p{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.me{
+    width: 25vw;
+    height: 50vh;
+}
+
+
+
+/* curve */
+
+.curve{
+    border-radius: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Resume article{
+    flex-direction: column;
+    align-items: normal;
+}
