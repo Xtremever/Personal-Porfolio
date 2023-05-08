@@ -145,8 +145,10 @@ article p{
     border-radius: 2vh;
 }
 
-
-
+/* border bottom */
+.borderdown{
+    border-bottom: .25mm solid black ;
+}
 
 
 
@@ -194,6 +196,11 @@ footer ul li a{
     background: linear-gradient(180deg, #fcdada, #ee1919, #fcdada);
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
+}
+
+.Resume{
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 .Resume article{
