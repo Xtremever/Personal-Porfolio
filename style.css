@@ -223,6 +223,15 @@ footer ul li a{
     -webkit-text-fill-color:transparent;
 }
 
+footer h2{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    background: linear-gradient(180deg, #cbe3f3, #352fee, #cbe3f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
 .Resume{
     margin-left: 17%;
     margin-right: 17%;
