@@ -193,7 +193,22 @@ article p{
     background-color: #5497115e ;
 }
 
+.space-e{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.space-e a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 3vh;
+    color: #489103;
+    text-decoration: none;
+    background-color: ;
+}
 
 
 
