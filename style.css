@@ -1,7 +1,6 @@
 /*  font-family: 'Berkshire Swash', cursive;
 font-family: 'Almendra SC', serif; */
 
-
 body{
     margin: 0;
     background-color: #C0A28D;
@@ -128,7 +127,7 @@ article{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
     color: #000;
     font-size: 2.5vh;
 }
@@ -168,13 +167,13 @@ article p{
 .Row a img{
     width: 7vh;
     height: 7vh;
-    margin-bottom: 0;
+    margin-bottom: 3vh;
 }
 
 .Row{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 0%;
+    padding-bottom: 1em;
 }
 
 .Resume li{
@@ -208,7 +207,7 @@ article p{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10%;
+    width: 22%;
     height: 3vh;
     color: #489103;
     text-decoration: none;
@@ -237,34 +236,33 @@ footer{
     color: #fff;
     font-family: 'Berkshire Swash', cursive;
     margin-bottom: 0;
-    height: 20vh;
+    height: fit-content;
 }
 
 
-footer ul{
+footer nav{
     margin-bottom: 0;
     display: flex;
 }
 
-footer ul li{
+footer nav a{
     width: 25%; 
+
 }
 
-footer ul li a{
+footer nav a{ 
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
     width: 25%; 
     background: linear-gradient(180deg, #fcdada, #ee1919, #fcdada);
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
+    font-size: 150%;
 }
 
-footer h2{
-    display: flex;
-    justify-content: center;
-    font-size: 220%;
-    background: linear-gradient(180deg, #ffffff, #a4a4a4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-}
+
+/* Resume */
 
 .Resume{
     margin-left: 17%;
