@@ -193,10 +193,6 @@ article p{
     font-size: 300%;
 }
 
-.content h2{
-    background-color: #5497115e ;
-}
-
 .space-e{
     display: flex;
     flex-direction: row;
@@ -276,3 +272,37 @@ footer nav a{
     align-items: normal;
 }
 
+
+.Content{
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.Content h5{
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.C-Area h2{
+    width: 100%;
+}
+
+input{
+    width: 15vw;
+}
+
+/* .message{
+    width: 15vw;
+    text-align:start;
+    height: 96%;
+} */
+
+.Small-Text{
+    width: 50%;
+    margin-bottom: 0%;
+}
