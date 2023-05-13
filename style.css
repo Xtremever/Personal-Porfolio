@@ -71,6 +71,15 @@ header ul button {
     border: none;
 }
 
+header ul button a:hover,
+header ul li a:hover{
+    
+    background: linear-gradient(180deg, #43003c,#ff00e6,#ff00e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-color: #d74464;
+}
+
 
 header ul div a{
     display: flex;
@@ -79,9 +88,13 @@ header ul div a{
     justify-content: center;
 }
 
+header ul div a:hover{
+    color:#000000
+}
+
 /* dropdown content */
 .dropdown-content {
-    width: 40%;
+    width: 100%;
     display: none;
     background-color: #d74464;
 }
@@ -257,6 +270,12 @@ footer nav a{
     font-size: 150%;
 }
 
+footer nav a:hover{
+    background: linear-gradient(180deg, #dafcfc, #19eeee, #dafcfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
 
 /* Resume */
 
@@ -293,7 +312,7 @@ footer nav a{
 }
 
 input{
-    width: 15vw;
+    width: 25vw;
 }
 
 /* .message{
@@ -330,9 +349,9 @@ input{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: yellow;
+  color: purple;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -347,6 +366,7 @@ input{
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color:yellow
 }
 
 /* Caption text */
