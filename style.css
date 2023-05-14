@@ -18,11 +18,17 @@ header button{
 
 header .row{
     background-color: #B9845B;
+    
 }
 
 header .row a,
 header .row .blankH{
     width: 20%;
+}
+
+header .row a img{
+    width: 10vh;
+    margin-left: 20%;
 }
 
 li, button{
@@ -119,8 +125,8 @@ section{
 
 /* images */
 section img {
-    width: 25vw;
-    height: 50vh;
+    width: 30vw;
+    height: auto;
 }
 
 .info{
@@ -153,7 +159,7 @@ article p{
 .me{
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 20vw;
     height: 50vh;
 }
 
@@ -415,4 +421,35 @@ input{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Portfolio links */
+.green{
+    color: green;
+    text-decoration: none;
+}
+
+.purple{
+    color: purple;
+    text-decoration: none;
+}
+
+.orange{
+    color: orange;
+    text-decoration: none;
+}
+
+.green:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.purple:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.orange:hover{
+    color: blue;
+    text-decoration: none;
 }
