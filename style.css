@@ -26,10 +26,10 @@ header .row .blankH{
     width: 20%;
 }
 
-header .row a img{
+/* header .row a img{
     width: 10vh;
     margin-left: 20%;
-}
+} */
 
 li, button{
     font-size: 3vh;
