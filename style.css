@@ -171,6 +171,11 @@ article p{
     border-radius: 2vh;
 }
 
+img.curve{
+    border-radius: 2vh;
+    border: .25vw solid #8f5a32;
+}
+
 /* border bottom */
 .borderdown{
     border-bottom: .25mm solid black ;
@@ -179,6 +184,7 @@ article p{
 
 .self-img{
     width: 20vw;
+    height: 50vh;
 }
 
 
