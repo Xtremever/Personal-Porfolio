@@ -64,14 +64,16 @@
             </div>
             <br><br>
             <div class="contact">
-                <form 
-                method="POST" 
-                action="https://script.google.com/macros/s/AKfycbyAkEEXdJnbV64sqRB8bx8t9CDGSlpiPVH2naw8ZvhchVLWGN7kyXwblORBv0IaVCiDVQ/exec"
-                >
+                <form id="SurveyForm" method="POST" action="https://script.google.com/macros/s/AKfycbyAkEEXdJnbV64sqRB8bx8t9CDGSlpiPVH2naw8ZvhchVLWGN7kyXwblORBv0IaVCiDVQ/exec">
                 <input name="Email" type="email" placeholder="Email" required>
                 <input name="Name" type="text" placeholder="Name" required>
                 <button type="submit">Send</button>
                 </form>
+                <script type="text/javascript">
+
+                    window.addEventListener("DOMContentLoaded", function () { const yourForm = document.getElementById('SurveyForm'); yourForm.addEventListener("submit", function (e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }).then(() => { window.location.replace('');  }) }) });
+        
+                </script>
             </div>
 
         </div>

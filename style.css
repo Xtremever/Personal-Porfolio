@@ -459,3 +459,14 @@ input{
     color: blue;
     text-decoration: none;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (width: 426px){
+    
+}
