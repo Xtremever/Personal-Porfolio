@@ -64,16 +64,16 @@
             </div>
             <br><br>
             <div class="contact">
-                <div class="Small-Text">
-                    <input maxlength="40" type="text" placeholder="Name" class="Name"><br><br>
-                    <input maxlength="40" type="text" placeholder="Email" class="Email"><br><br>
-                    <input maxlength="40" type="text" placeholder="Subject" class="Subject">
-                </div>
+                <form 
+                method="POST" 
+                action="https://script.google.com/macros/s/AKfycbyAkEEXdJnbV64sqRB8bx8t9CDGSlpiPVH2naw8ZvhchVLWGN7kyXwblORBv0IaVCiDVQ/exec"
+                >
+                <input name="Email" type="email" placeholder="Email" required>
+                <input name="Name" type="text" placeholder="Name" required>
+                <button type="submit">Send</button>
+                </form>
             </div>
 
-            <div class="Send">
-                <button>Send</button>
-            </div>
         </div>
     </div>
 
