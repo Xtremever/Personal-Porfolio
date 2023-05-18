@@ -311,7 +311,7 @@ footer nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: fit-content;
 }
 
 .Content h5{
@@ -467,6 +467,45 @@ form{
     align-items: center;
 }
 
-@media screen and (width: 426px){
-    
+@media screen and (max-width: 721px){
+    header{
+        width: 100vw;
+    }
+    header ul li a,
+    header ul button
+    {
+        width: 10vw;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .self-img{
+        font-weight: 1000;
+    }
+    .white-bg{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .Resume{
+        width: 100%;
+    }
+    li,button{
+        font-size: 2.4vw;
+    }
+    ul{
+        align-items: center;
+    }
+    img.curve,.slideshow-container, .slideshow-container img{
+        width: 55vw;
+    }
+    .Content h5{
+        font-size: 5vw;
+    }
+    .Content{
+        margin-bottom: 10vh;
+    }
+    header .row h1{
+        font-size: 5vw;
+    }
 }
